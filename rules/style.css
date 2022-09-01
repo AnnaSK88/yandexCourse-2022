@@ -1,0 +1,139 @@
+body, h1,h2, h3, h4, p, a {
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+  }
+  
+  .header {
+    height: 100vh;
+    background-color: #eee;
+    background-image: url(https://pictures.s3.yandex.net/frontend-developer/free-course/cover.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+  
+  .header-title {
+    font-size: 140px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: auto;
+  }
+  
+  .overlay {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+  }
+  .content {
+    font-size: 0;
+    width: 790px;
+    margin: 100px auto 50px;
+  
+  }
+  
+  .card {
+    width: 350px;
+  
+    margin-bottom:60px;
+    margin-right: 90px;
+    padding:45px 45px 70px 45px;
+    box-shadow: 4px 4px 5px rgba(250, 50, 50, .4);
+    
+     display: inline-block;
+  
+  }
+  .no-right-margin {
+    margin-right: 0;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .card-text {
+    font-size: 16px;
+  }
+  .card-image {
+    width:100%;
+    margin-bottom: 25px;
+  }
+  /*footer*/
+  .footer {
+    display: flex;
+    height: 300px;
+    background-color: black;
+  }
+  .footer-author{
+    margin:auto;
+    color: white;
+    font-size: 24px;
+  }
+  a {
+    color:white;
+    font-size: 36px;
+    text-decoration: none; 
+  
+  }
+  /*section about code */
+  .code {
+    background-color:rgba(38, 37, 37, 0.92);
+    height: 100%;
+    color:white;
+  }
+  .code-header {
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+   
+    
+  }
+  .code-text {
+    margin:40px auto;
+    font-size: 38px;
+    font-weight: bold;
+ 
+  }
+
+  .code-button{
+    margin:40px auto;
+    padding-top: 10px;
+    box-sizing: border-box;
+    border: 1px solid burlywood;
+    font-style: bold;
+    color:rgb(145, 16, 35);
+    text-align: center;
+    font-size: 32px;
+
+    cursor: pointer;
+   
+  }
+  
+  .image {
+    width: 50%;
+    display: block;
+    margin: 60px auto 50px;
+  }
+
+  .advice {
+    color: white;
+    font-size: 63px;
+    font-weight: bold;
+    line-height: 1.1;
+    margin-left: 30px;
+    padding-bottom: 70px;
+    padding-left: 30px;
+  } 
+ 
+
+
